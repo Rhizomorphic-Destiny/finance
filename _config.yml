@@ -1,4 +1,5 @@
 theme: minima
+encoding: UTF-8
 title: "Money Fun with NerdWallet"
 description: "Cool money tips every day!"
 plugins:
