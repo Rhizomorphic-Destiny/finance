@@ -1,0 +1,8 @@
+theme: minima
+title: "Money Fun with NerdWallet"
+description: "Cool money tips every day!"
+plugins:
+  - jekyll-feed
+feed:
+  sources:
+    - { url: "https://www.nerdwallet.com/blog/feed" }
