@@ -7,4 +7,3 @@ plugins:
 feed:
   sources:
     - { url: "https://www.nerdwallet.com/blog/feed" }
-    - { url: "https://feeds.megaphone.fm/newheights" }
