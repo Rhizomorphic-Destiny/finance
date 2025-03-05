@@ -6,4 +6,4 @@ plugins:
 feed:
   sources:
     - { url: "https://www.nerdwallet.com/blog/feed" }
-    - { url: "https://www.fool.com/rss" }
+    - { url: "https://feeds.megaphone.fm/newheights" }
