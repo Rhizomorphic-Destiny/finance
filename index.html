@@ -1,0 +1,15 @@
+```
+layout: default
+title: "Latest Money Tips"
+description: "Daily tips from NerdWallet to save and grow your money!"
+<div class="feed-box">
+  {% for post in site.posts limit:10 %}
+    <div class="tip-card">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.content | strip_html | truncate: 100 }}</p>
+      <a href="{{ post.url }}" target="_blank">Read More</a>
+    </div>
+  {% endfor %}
+</div>
+```
+
