@@ -1,7 +1,7 @@
 name: Update Site
 on:
   schedule:
-    - cron: "*/1 * * * *" # Every 15 minutes
+    - cron: "*/10 * * * *" # Every 15 minutes
 jobs:
   build:
     runs-on: ubuntu-latest
