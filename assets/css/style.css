@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.feed-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.tip-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 18px;
+  color: #0066cc;
+}
+p {
+  font-size: 14px;
+  color: #666;
+}
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
